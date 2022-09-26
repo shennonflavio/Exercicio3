@@ -16,7 +16,6 @@ function getData() {
     phrase.innerHTML = `A idade média de ${name_1.value} e ${
       name_2.value
     } é de ${average.toFixed(1)} anos`;
-  } else {
     return;
   }
 }
